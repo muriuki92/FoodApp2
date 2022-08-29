@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.043" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/slide"
         android:layout_width="393dp"
         android:layout_height="288dp"
         android:src="@drawable/logo"
