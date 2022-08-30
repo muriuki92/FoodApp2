@@ -12,9 +12,8 @@ class IntroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-         val backgrounding: ImageView = findViewById(R.id.slide)
-        val animation = AnimationUtils.loadAnimation(this,R.anim.slide)
-        backgrounding.startAnimation(animation)
+
+      
         Handler().postDelayed({
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
